@@ -1,10 +1,22 @@
+/* all of the background styling */
+
 body{
   background-image: url("background.png");
   text-align: center;
+  min-height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
+
+/* All of the text fonts or styles */
+
 h1{
   font-size: 50px;
 }
+
 p1{
   text-align: center;
   font-size: 15px;
@@ -16,6 +28,9 @@ p2{
   font-size: 25px;
   font-family: comic sans-serif;
 }
+
+/* This makes the container and container color */
+
 #container{
   width: auto;
   margin: 30px;
@@ -24,9 +39,15 @@ p2{
   border: 5px solid black;
   background-color: navajowhite;
   text-align: center;
-  
 }
 
-#test{
-  position: sticky;
-}
+/* This makes the thingy at the top stay */
+
+.sticky-div {
+	background-color: navajowhite;
+  border: 5px solid black;
+	position: sticky;
+	top: 0px;
+	padding: auto;
+  border-radius: 50px;
+	}
